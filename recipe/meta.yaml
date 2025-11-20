@@ -30,7 +30,7 @@ requirements:
     - qt6-main      # [build_platform != target_platform and build_variant == "qt6"]
     - qt-main       # [build_platform != target_platform and build_variant == "qt5"]
     - ninja
-    - cmake
+    - cmake <4
   host:
     - qt6-main      # [build_variant == "qt6"]
     - qt-main       # [build_variant == "qt5"]
